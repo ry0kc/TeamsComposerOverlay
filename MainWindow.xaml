@@ -1,0 +1,26 @@
+﻿<Window x:Class="TeamsComposer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Teams Composer"
+        Width="500"
+        Height="100"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Topmost="True"
+        ShowInTaskbar="False"
+        AllowsTransparency="True"
+        Background="Transparent">
+    <Grid Margin="2">
+        <Border Background="Transparent"
+			BorderThickness="0">
+            <TextBox x:Name="MessageBox"
+                     AcceptsReturn="True"
+                     VerticalScrollBarVisibility="Auto"
+                     TextWrapping="Wrap"
+                     FontSize="14"
+                     BorderThickness="0"
+                     Padding="10"
+                     VerticalContentAlignment="Center"/>
+        </Border>
+    </Grid>
+</Window>
